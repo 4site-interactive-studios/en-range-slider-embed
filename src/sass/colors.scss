@@ -1,0 +1,18 @@
+$bg: #009fe3;
+$txt: #ffffff;
+$form-txt: #aaaaaa;
+$thumb: #ffb800;
+$thumb-hover: darken($thumb, 10%);
+$thumb-active: darken($bg, 10%);
+$button: #009fe3;
+$button-hover: darken($button, 10%);
+.en-range-slider-wrapper {
+  --en-range-slider-color-bg: #{$bg};
+  --en-range-slider-color-txt: #{$txt};
+  --en-range-slider-color-form-txt: #{$form-txt};
+  --en-range-slider-color-thumb: #{$thumb};
+  --en-range-slider-color-thumb-hover: #{$thumb-hover};
+  --en-range-slider-color-thumb-active: #{$thumb-active};
+  --en-range-slider-color-button: #{$button};
+  --en-range-slider-color-button-hover: #{$button-hover};
+}
