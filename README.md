@@ -88,11 +88,11 @@ You can also set data attributes on the `range-slider` tag to change the colors 
 />
 ```
 
-### IMPORTANT: You can use this project on any website, but you the `href` attribute must be a URL to an Engaging Networks Donation Page.
+### IMPORTANT: You can use this project on any website, but the `href` attribute must be a URL to an Engaging Networks Donation Page.
 
 ## Development
 
-Your js code must be on the `src/app.ts` file. Styling changes must be on `src/sass`.
+Your js code must be on the `src/range-slider.ts` file. Styling changes must be on `src/sass`.
 
 ## Install Dependencies
 
@@ -102,7 +102,7 @@ Your js code must be on the `src/app.ts` file. Styling changes must be on `src/s
 
 1. `npm run build` - Builds the project
 
-It's going to create a `dist` folder, where you can get the `en-range-slider.js` file and publish it.
+It's going to create a `dist` folder, where you can get the `en-range-slider-embed.js` file and publish it.
 
 ## Hot Module Reloading
 
@@ -110,7 +110,7 @@ It's going to create a `dist` folder, where you can get the `en-range-slider.js`
 
 ## Demo
 
-https://action.peta.de/page/104813/donate/1?mode=DEMO
+https://apps.4sitestudios.com/fernando/peta/range-slider/
 
 It's currently published on PETA Germany EN Account:  
 https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/44/en-range-slider-embed.js
