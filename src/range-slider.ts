@@ -116,15 +116,15 @@ export class RangeSlider extends HTMLElement {
     sliderForm.classList.add("en-range-slider-form");
     sliderForm.innerHTML = `
     <div class="en-range-slider__form-container">
-        <div class="en-range-slider__form-amount currency-${
-          this.options.currencyPosition
-        }">
-          <span class="en-range-slider__currency">${this.currency}</span>
-          <input type="text" class="en-range-slider__form-amount-input" placeholder="Amount" value="${
-            this.options.defaultAmount
-          }" autocomplete="off" data-lpignore="true" inputmode="decimal">
-        </div>
         <div class="en-range-slider__form-frequency">
+          <div class="en-range-slider__form-amount currency-${
+            this.options.currencyPosition
+          }">
+            <span class="en-range-slider__currency">${this.currency}</span>
+            <input type="text" class="en-range-slider__form-amount-input" placeholder="Amount" value="${
+              this.options.defaultAmount
+            }" autocomplete="off" data-lpignore="true" inputmode="decimal">
+          </div>
           ${this.getFrequency("oneTimeLabel")}
           ${this.getFrequency("monthlyLabel")}
           ${this.getFrequency("annualLabel")}

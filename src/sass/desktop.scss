@@ -2,6 +2,7 @@
   width: 100%;
   padding-top: 10px;
   height: 80px;
+  text-align: center;
   &__container {
     position: relative;
     background-color: var(--en-range-slider-color-bg);
@@ -63,6 +64,22 @@
             background-color: var(--en-range-slider-color-thumb-active);
           }
         }
+        &::-moz-range-thumb {
+          appearance: none;
+          width: 60px;
+          height: 60px;
+          border-radius: 60px;
+          background-color: var(--en-range-slider-color-thumb);
+          cursor: pointer;
+          transition: background-color 0.2s ease-in-out;
+          border: 2px solid var(--en-range-slider-color-txt);
+          &:hover {
+            background-color: var(--en-range-slider-color-thumb-hover);
+          }
+          &:active {
+            background-color: var(--en-range-slider-color-thumb-active);
+          }
+        }
       }
     }
     .en-range-slider__amount {
@@ -107,7 +124,6 @@
     align-items: stretch;
     width: 100%;
     height: 100%;
-    padding: 0 20px;
   }
   &-amount {
     width: 100px;
@@ -142,12 +158,12 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-left: 20px;
+    justify-content: center;
     align-items: stretch;
     position: relative;
     width: 100%;
     gap: 15px;
+    white-space: nowrap;
     label {
       width: 100%;
       max-width: 100px;
