@@ -44,6 +44,7 @@ Every option can be set as a data attribute on the `range-slider` tag.
 - **one-time-label**: The label for the one time button. Defaults to empty. If not set, the button will not be displayed.
 - **monthly-label**: The label for the monthly button. Defaults to empty. If not set, the button will not be displayed.
 - **annual-label**: The label for the annual button. Defaults to empty. If not set, the button will not be displayed.
+- **selected-frequency**: The frequency that will be selected by default. Defaults to `onetime`. Possible values are `onetime`, `monthly` and `annual`.
 - **button-label**: The label for the button. Defaults to `Donate Now`.
 
 ## Color Options
@@ -74,6 +75,7 @@ You can also set data attributes on the `range-slider` tag to change the colors 
   data-one-time-label="One time"
   data-monthly-label="Monthly"
   data-annual-label="Annual"
+  data-selected-frequency="monthly"
   data-button-label="Give"
   data-color-bg="#0E1F40"
   data-color-txt="#FFF"
